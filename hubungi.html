@@ -4,9 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, 
     initial-scale=1.0">
-    <title>Tentang</title>
+    <title>Hubungi Kami</title>
 </head>
 <body>
-    <h1>Tentang Kami</h1>
+    <h1>Hubungi Kami</h1>
+    <!--form-->
+    <form action="submit.html" method="post">
+        NPM <br>
+        <input type="text" name="NPM" id="NPM"><br>
+        Nama <br>
+        <input type="text" name="Nama" id="Nama"><br>
+        Email <br>
+        <input type="email" name="Email" id="Email"><br>
+        Tanggal Lahir <br>
+        <input type="date" name="tglLahir" id="tglLahir"><br>
+        Kota Lahir <br>
+        <select name="KotaLahir" id="KotaLahir">
+            <option value="JKT">Jakarta</option>
+            <option value="PDG">Padang</option>
+            <option value="PLG">Palembang</option>
+        </select>
+        Jenis Kelamin <br>
+        <input type="radio" name="jk" id="L">
+        Laki-Laki <br>
+        <input type="radio" name="jk" id="P">
+        Perempuan <br>
+        Mengetahui UMDP dari mana <br>
+        <input type="checkbox" name="cb1" id="K">
+        Keluarga <br>
+        <input type="checkbox" name="cb2" id="S">
+        Sosial Media <br>
+        File Foto <br>
+        <input type="file" name="Foto" id=""><br>
+        <button type="submit">Simpan</button>
+        <button type="reset">Reset</button>
+    </form>
 </body>
 </html>
