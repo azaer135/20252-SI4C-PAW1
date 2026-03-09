@@ -1,0 +1,45 @@
+/* hp max width : 600px*/
+@media screen and (max-width: 600px) {
+    /* element sector body */
+    body {
+        background-color: rgb(235, 72, 126);
+    }
+}
+
+
+/* tablet min width: 600px*/
+@media screen and (min-width: 600px) {
+    /* element sector body */
+    body {
+        background-color: rgba(58, 238, 139, 0.74);
+    }
+    /* class selector */
+    .col-md-50{
+        width: 50%;
+        float: left;
+    }
+
+    .col-md-100{
+        width: 100%;
+        float: left;
+    }
+}
+
+/*desktop min width : 600px*/
+@media screen and (min-width : 995px) {
+    /* element sector body */
+    body {
+        background-color: blue;
+    }
+    
+    /* class selector */
+    .col-lg-25 {
+        width: 25%;
+        float: left;
+    }
+    
+    .col-lg-50 {
+        width: 50%;
+        float: left;
+    }
+}
