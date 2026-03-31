@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Belajar JavaScript</h1>
+    <p id="demo">Hello</p>
+
+    <!--inline-->
+    <button onclick="alert('Selamat Datang!')">Klik Saya</button>
+
+    <!--internal js-->
+    <script>
+        //imi komentar di js
+        //mengubah konten pargraf id=demo
+        document.getElementById('demo').innerHTML = 'Hidop Jowkowhi';
+
+        //mengubah warna paragraf id=demo
+        document.getElementById('demo').style.color = 'green';
+
+        //menampilkan pesan di console
+        console.log('pesan ini dapat dilihat di console');
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
