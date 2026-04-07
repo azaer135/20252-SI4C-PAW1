@@ -13,4 +13,5 @@ let saran = document.getElementById('saran').value;
 //document.getElementById('list-pesan').innerHTML = "<li>" + nama + "</li>";
 document.getElementById('list-pesan').innerHTML += `<tr><td>${nama}</td><td>${saran}</td></tr>`;
 
+
 }
